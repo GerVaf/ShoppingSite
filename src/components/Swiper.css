@@ -1,9 +1,10 @@
-.swiper-wrapper{
-    margin-left: 70px ;
+.swiper-wrapper {
+  margin-left: 130px;
+  /* margin-right: 50px; */
 }
-.swiper-slide-prev{
-color: black;
+.swiper .swiper-button-prev {
+  color: rgb(225, 151, 47);
 }
-.swiper-button-next{
-color: black;
+.swiper .swiper-button-next {
+  color: rgb(225, 151, 47);
 }
