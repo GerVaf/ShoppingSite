@@ -7,12 +7,12 @@ const Feature = () => {
       {/* feature product */}
       <div className="sm:flex sm:items-center sm:flex-col">
         <h2 className="sm:text-[30px]">FEATURE PRODUCTS</h2>
-        <div className="flex sm:flex-row sm:flex-wrap flex-col items-center gap-10 p-5 mb-5">
+        <div className="flex sm:flex-row sm:flex-wrap flex-col items-center gap-10 p-5 mb-5 ">
           <div className="card w-80 bg-base-100 shadow-xl">
             <figure className="">
               <img className="" src={featurePhoto3} alt="Shoes" />
             </figure>
-            <div className="card-body">
+            <div className="card-body text-gray-700">
               <h2 className="card-title">
                 T-shirt!
                 <div className="badge badge-secondary">NEW</div>
@@ -28,7 +28,7 @@ const Feature = () => {
             <figure className="">
               <img src={featurePhoto3} alt="Shoes" />
             </figure>
-            <div className="card-body">
+            <div className="card-body text-gray-700">
               <h2 className="card-title">
                 T-shirt!
                 <div className="badge badge-secondary">NEW</div>
@@ -44,7 +44,7 @@ const Feature = () => {
             <figure className="">
               <img src={featurePhoto3} alt="Shoes" />
             </figure>
-            <div className="card-body">
+            <div className="card-body text-gray-700">
               <h2 className="card-title">
                 T-shirt!
                 <div className="badge badge-secondary">NEW</div>
@@ -60,7 +60,7 @@ const Feature = () => {
             <figure className="">
               <img src={featurePhoto3} alt="Shoes" />
             </figure>
-            <div className="card-body">
+            <div className="card-body text-gray-700">
               <h2 className="card-title">
                 T-shirt!
                 <div className="badge badge-secondary">NEW</div>
